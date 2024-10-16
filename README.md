@@ -1,4 +1,4 @@
-# AI-Powered WhatsApp Assistant
+# AI WhatsApp Assistant
 
 This project is an AI-powered WhatsApp assistant that uses OpenAI's GPT-4o model to provide intelligent responses, set reminders, take notes, and process various types of content including YouTube videos and ArXiv papers.
 
