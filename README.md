@@ -1,6 +1,6 @@
 # AI-Powered WhatsApp Assistant
 
-This project is an AI-powered WhatsApp assistant that uses OpenAI's GPT-4 model to provide intelligent responses, set reminders, take notes, and process various types of content including YouTube videos and ArXiv papers.
+This project is an AI-powered WhatsApp assistant that uses OpenAI's GPT-4o model to provide intelligent responses, set reminders, take notes, and process various types of content including YouTube videos and ArXiv papers.
 
 ## Features
 
@@ -14,7 +14,7 @@ This project is an AI-powered WhatsApp assistant that uses OpenAI's GPT-4 model 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-- Python 3.7+
+- Python 3.9+
 - Flask
 - OpenAI API access
 - Twilio account for WhatsApp integration
@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
 
 4. Configure Twilio WhatsApp Sandbox:
    - Set up a Twilio account and configure the WhatsApp Sandbox.
-   - Set the webhook URL in your Twilio console to point to your server's `/whatsapp` endpoint.
+   - Set the webhook URL in your Twilio console to point to your server's `/whatsapp` endpoint. **Note:** Ensure your server is running on a VM like EC2 where the inbound and outbound traffic is open, and add the public IP to Twilio as the webhook URL.
 
 5. Run the application:
    ```
