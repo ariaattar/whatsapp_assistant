@@ -1,0 +1,8 @@
+flask
+requests
+openai
+apscheduler
+pytz
+youtube_transcript_api
+PyPDF2
+twilio
