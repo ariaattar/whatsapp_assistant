@@ -258,7 +258,7 @@ def send_text(message):
             response = twilio_client.messages.create(
                 from_="whatsapp:+14155238886",
                 body=chunk,
-                to="whatsapp:+16506464321"
+                to=f"whatsapp:+{os.environ.get('PHONE_NUMBER', '')}"
             )
             responses.append({"success": True, "sid": response.sid})
         except Exception as e:
@@ -266,7 +266,7 @@ def send_text(message):
 
     return responses
 
-def send_reminder(reminder_text, phone_number="16506464321"):
+def send_reminder(reminder_text, phone_number=os.environ.get('PHONE_NUMBER', '')):
     send_text(f"Reminder: {reminder_text}")
 
 @app.route('/send', methods=['POST'])
