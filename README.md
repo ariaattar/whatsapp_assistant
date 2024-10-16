@@ -41,6 +41,7 @@ Before you begin, ensure you have met the following requirements:
    TWILIO_AUTH_TOKEN=your_twilio_auth_token
    SMARTPROXY_USERNAME=your_smartproxy_username
    SMARTPROXY_PASSWORD=your_smartproxy_password
+   PHONE_NUMBER=your_personal_phone_number #Example: 16507654321
    ```
 
 4. Configure Twilio WhatsApp Sandbox:
