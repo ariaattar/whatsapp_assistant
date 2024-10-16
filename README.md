@@ -62,6 +62,8 @@ Once set up, users can interact with the AI assistant through WhatsApp by sendin
 - Process YouTube videos (send a YouTube URL)
 - Analyze ArXiv papers (send an ArXiv paper URL)
 
-## Disclaimer
+## To-Do
+- [ ] Implement a more robust note-taking system
+- [ ] Explore options for cloud-based note storage
+- [ ] Add functionality to categorize and organize notes
 
-This project is for educational purposes only. Ensure you comply with OpenAI's use-case policy and Twilio's terms of service when using this application.
